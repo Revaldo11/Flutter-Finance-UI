@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_finance_app_ui/components/contacs_section.dart';
 import 'package:flutter_finance_app_ui/components/header.dart';
 import 'package:flutter_finance_app_ui/constant.dart';
 
@@ -24,8 +25,8 @@ class HomeScreen extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: const [
-              Header()
-              // contactSection()
+              Header(),
+              ContacSection(),
             ],
           ),
         ),

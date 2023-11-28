@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_finance_app_ui/constant.dart';
 import 'package:flutter_finance_app_ui/screen/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
   SystemChrome.setSystemUIOverlayStyle(
-    const SystemUiOverlayStyle(statusBarColor: App.accentColor),
+    const SystemUiOverlayStyle(statusBarColor: Colors.deepPurple),
   );
 }
 

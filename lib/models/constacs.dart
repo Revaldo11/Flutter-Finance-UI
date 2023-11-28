@@ -3,6 +3,7 @@ class Contacs {
   final String name;
   final String imageLink;
   Contacs({required this.name, required this.imageLink}); // constructor
+
 }
 
 // make list of constacs

@@ -19,12 +19,11 @@ class Header extends StatelessWidget {
           alignment: Alignment.topCenter,
           height: 150,
           decoration: const BoxDecoration(
-            color: App.accentColor,
-            borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(40),
-              bottomRight: Radius.circular(40),
-            ),
-          ),
+              color: Colors.deepPurple,
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(40),
+                bottomRight: Radius.circular(40),
+              )),
         ),
         Padding(
           padding: const EdgeInsets.all(10.0),
